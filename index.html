@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Swing Smooth 高尔夫挥杆回看 App 使用帮助：拍摄、导入、逐帧回看、标注、导出和联系支持。">
+  <meta name="theme-color" content="#236C80">
+  <title>使用帮助 · Swing Smooth</title>
+  <link rel="icon" href="assets/app-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">跳到正文</a>
+  <header class="site-header shell">
+    <a class="brand" href="index.html"><img src="assets/app-icon.png" alt="" width="42" height="42">Swing Smooth</a>
+    <nav aria-label="网站导航"><a href="index.html" aria-current="page">使用帮助</a><a href="privacy.html">隐私政策</a></nav>
+  </header>
+  <main id="main" class="shell">
+    <div class="hero">
+      <h1>使用帮助</h1>
+      <p class="lead">记录练习，再慢慢看清每一杆。这里可以找到拍摄、逐帧回看和标注的操作说明。</p>
+      <p class="date">适用于 Swing Smooth 1.7 系列 · iOS</p>
+      <div class="film-ruler" aria-hidden="true"></div>
+    </div>
+    <div class="support-layout">
+      <div>
+        <section aria-labelledby="modes">
+          <h2 id="modes">先选一种拍摄方式</h2>
+          <div class="mode-comparison">
+            <article><h3>连续拍摄</h3><p>手动开始，练习几杆后手动停止。App 识别挥杆并分别保存，适合连续击球。</p><p class="hint">识别可能误录或漏录；DTL 和正面均可选。</p></article>
+            <article><h3>单拍</h3><p>手动开始，停止后完整保存一条视频。适合试挥、准备动作，或需要保留整个过程时使用。</p><p class="hint">整段保存，不需要击球，也不做自动分段。</p></article>
+          </div>
+        </section>
+        <section aria-labelledby="questions">
+          <h2 id="questions">操作与常见问题</h2>
+          <details open><summary>怎样拍摄一段练习视频？</summary><div>
+            <ol><li>将 iPhone 竖放并固定，选择 DTL 或正面，确认全身和球杆活动范围在画面内。</li><li>拍摄前点开倍率调节盘，或在取景画面双指捏合调整远近。录制时倍率会锁定。</li><li>选择连续或单拍，点击开始，结束后手动停止。整理完成的片段会出现在视频库。</li></ol>
+            <p>拍摄目标为 1080p／120 fps，优先针对 iPhone 17 Pro Max 开发。请保持良好光照和足够存储空间；三分钟是首版验证范围，到时会提示，不会自动强停。</p>
+          </div></details>
+          <details><summary>怎样导入已有视频？</summary><div>
+            <p>在视频库点“导入”，从相册或文件选择视频，再选择 DTL／正面，以及“整段导入”或“自动识别挥杆”。</p>
+            <p>云端素材需要先下载。整段导入保留完整视频；自动识别会尝试分别保存挥杆片段。App 内的删除不会删除相册或文件中的原件。</p>
+          </div></details>
+          <details><summary>怎样逐帧查看、裁剪和连续回看？</summary><div>
+            <p>打开视频后，拖动缩略时间尺快速定位，用前后逐帧按钮精确移动。可以选择慢放和循环；“上一杆／下一杆”按进入时的视频库顺序切换，新片会暂停在有效范围开头。</p>
+            <p>点“裁剪”进入编辑，拖动起止手柄或逐帧微调，预览后保存。裁剪不覆盖底层已保留素材，之后仍可在保留范围内重新调整；“取消”会恢复原范围。</p>
+          </div></details>
+          <details><summary>怎样画线、画圈或调整标注？</summary><div>
+            <p>暂停视频后进入标注，选择直线或圆圈。切到“选择”模式可以移动标注，拖动直线端点或圆圈角点精修。双指可以放大、平移画面。</p>
+            <p>垃圾桶清空当前视频的全部标注，可以撤销。标注会保存到该视频，整段固定显示，不会自动跟踪人体；编辑完成后点“完成标注”。</p>
+          </div></details>
+          <details><summary>识别多了、漏了，或者动作没有完整保留？</summary><div>
+            <p>自动识别可能受遮挡、取景、邻位声音、光照和素材节奏影响。本人动作与声音不足以区分击球和试挥时，结果也可能不准确。</p>
+            <p>重要练习可以选“单拍”完整记录；已有视频可以选择“整段导入”。边界只能在已经保留的素材内调整，无法找回没有保留下来的画面。若反复出现问题，请联系支持，描述取景、模式和发生情况。</p>
+          </div></details>
+          <details><summary>近处模糊、对焦慢，怎么办？</summary><div>
+            <p>先点按画面中的目标位置，并保持手机稳定、光线充足。过近可能超出当前镜头的合焦距离，可以稍微退后作对照；放大产生的细节下降和动作拖影也可能看起来像失焦。</p>
+            <p>如果仍出现“短暂清晰后再次模糊”，请记录倍率、拍摄模式、光照和大致距离。可从视频库的本地诊断入口导出排错信息，再由你决定是否发送给支持。</p>
+          </div></details>
+          <details><summary>怎样导出、备份或删除视频？</summary><div>
+            <p>回看页支持导出干净视频、带标注截图和带标注视频，通过系统分享选择保存位置。导出遵守保存后的片段范围；回看时的缩放和慢放倍率不会直接改变导出画面。</p>
+            <p>导出视频不能完整备份可编辑标注、收藏和全部库资料。App 管理的视频和资料默认排除系统云备份；卸载会删除本地内容。重要视频请在卸载或更换安装方式前主动导出。</p>
+            <p>视频库点“选择”可以多选删除，确认后提供五秒整批撤销。导出到相册、文件或其他服务的副本，需要在对应位置自行管理。</p>
+          </div></details>
+        </section>
+        <p class="note">Swing Smooth 用于练习记录和自主回看，不提供杆速、球路或医疗诊断。</p>
+      </div>
+      <aside class="contact" aria-labelledby="contact">
+        <h2 id="contact">联系支持</h2>
+        <p>遇到问题，或有改进建议，可以发邮件联系开发者。</p>
+        <a class="email" href="mailto:tomlee96@126.com?subject=Swing%20Smooth%20%E4%BD%BF%E7%94%A8%E5%8F%8D%E9%A6%88">tomlee96@126.com</a>
+        <p>请尽量说明：</p>
+        <ul><li>App 版本、iPhone 型号和 iOS 版本；</li><li>发生前做了什么、预期与实际结果；</li><li>是否可以重复出现。</li></ul>
+        <p>截图、视频或诊断文件由你自愿提供。请先检查其中的个人信息，不要发送密码或验证码。</p>
+        <p><a href="privacy.html#support">了解支持邮件中的信息如何处理</a></p>
+      </aside>
+    </div>
+  </main>
+  <footer class="site-footer shell"><span>Swing Smooth · 高尔夫练习回看</span><a href="privacy.html">隐私政策</a></footer>
+</body>
+</html>
